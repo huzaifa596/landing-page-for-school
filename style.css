@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type:none;
+}
+.nav{
+    font-family: "Nunito" !important;
+}
+.section-a
+{
+    font-family: "Handlee" ;
+
+}
+.card-title{
+    font-family: "handlee";
+    font-weight:700 ;
+}
+.new{
+    position: relative;
+    letter-spacing: 1px;
+    
+}
+.new::before{
+        position: absolute;
+    content: "";
+    z-index: 0;
+    top: 10px;
+    left: 0;
+   width:35%;
+    height: 2px;
+    background: #17a2b8;
+}
+span{
+    z-index: 100;
+}
+.right-content h1{
+font-family: "Handlee";
+font-weight:700;
+}
+.fee h1{
+font-family: "Handlee";
+
+}
+.form-section h1{
+    font-family: "handlee";
+    font-weight:700;
+}
+ .blog-card-img {
+    height: 200px;
+    object-fit: cover;
+  }
