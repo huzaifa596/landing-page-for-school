@@ -25,7 +25,7 @@
 }
 .new::before{
         position: absolute;
-    content: "";
+    content: " ";
     z-index: 0;
     top: 10px;
     left: 0;
@@ -48,7 +48,9 @@ font-family: "Handlee";
     font-family: "handlee";
     font-weight:700;
 }
- .blog-card-img {
-    height: 200px;
-    object-fit: cover;
-  }
+
+.last h3,h1{
+font-family: "handlee";
+font-weight:700;
+color:#17a2b8
+}
